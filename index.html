@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WMK Foods</title>
+  <link rel="stylesheet" href="css/bulma.min.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/bulma-divider.min.css">
+
+  <style>
+  	@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+  	body {font-family: 'Nunito', sans-serif;}
+
+    nav.navbar {
+      height: 1rem !important;
+	  float: center;
+	  padding: 10px;
+	}
+    :root{
+::-webkit-scrollbar{height:10px;width:8px}::-webkit-scrollbar-track{background:#efefef;border-radius:6px}::-webkit-scrollbar-thumb{background:#d5d5d5;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#c4c4c4}
+}
+
+    ::selection{color: lavender; background-color:lavender;}
+
+  </style>
+</head>
+
+<body>
+  <!-- START NAV -->
+  <div style="width:370px; margin:0 auto;">
+  <nav class="navbar">
+    <div class="container">
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar">
+          <a class="navbar-item is-active is-size-6 has-text-weight-semibold">
+            Home
+          </a>
+          <a class="navbar-item is-size- has-text-weight-semibold">
+            Products 
+          </a>
+		 <div class="navbar-brand">
+     	   <a class="navbar-item" href="https://wmkfoods.github.io">
+     	     <img src="img/pot.jpg" alt="Acme">
+     	   </a>
+     	 </div>
+          <a class="navbar-item is-size-6 has-text-weight-semibold">
+			About  
+          </a>
+          <a class="navbar-item is-size-6 has-text-weight-semibold">
+			Socials	
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    </div>
+  <!-- END NAV -->
+
+  <!-- Image -->
+  <section class="hero ">
+    <div class="hero-body">
+      <div class="container">
+		<div class="row">
+        <div class="columns">
+          <div class="column is-5 is-offset-1">
+            <figure class="image is-16by9">
+              <img src="img/banner.jpg" alt="blog image" align=left> 
+            </figure>
+          </div>
+		  <div>
+		<div class="buttons">
+		</div>
+		<div class="buttons">
+			<button class="button is-primary is-light"><strong>WMK FOODS</strong></button>
+		</div>
+		  <h3 class="subtitle is-4">Our products are all organic and Non-GMO,<br> grown by the farmers of
+			  Meghalaya using <br>traditional methods.</h3>
+          </div>
+        </div>
+        </div>
+        <div class="container">
+</div>
+
+      </div>
+    </div>
+  </section>
+        <div class="is-divider"></div>
+        <section class="section" >
+          <div class="columns">
+            <div class="column is-8 is-offset-2">
+              <div class="content is-medium">
+                <h1 class="title">PRODUCTS</h1>
+              </div>
+
+			  <div class="row">
+				  <div class="columns">
+					 <div>
+		 			   	<div class="buttons">
+		 			   	</div>
+		 			   	<div class="buttons">
+		 			   		<button class="button is-primary is-light">Lakadong Turmeric</button>
+		 			   		<button class="button is-primary is-inverted is-small">100g</button>
+		 			   	</div>
+						India's best quality turmeric with a curcumin content of
+						7-12%.
+		 			   		Sourced from <br>Meghalaya.
+         			 </div>
+
+		 			 <div>
+						<div class="column is-6 is-offset-1">
+          				    <img src="img/Front.png" alt="blog image" align=left width="800" height="600"> 
+          				</div>
+		 			   	<button class="button is-primary is-dark">Buy now</button>
+						<br>
+						<br>
+						*Availabe on amazon
+         			 </div>
+					</div>
+				  <div class="columns">
+					 <div>
+		 			   	<div class="buttons">
+		 			   	</div>
+		 			   	<div class="buttons">
+		 			   		<button class="button is-primary is-light">Ing Makhir (Ginger)</button>
+		 			   		<button class="button is-primary is-inverted is-small">100g</button>
+		 			   	</div>
+						Ing Makhir (Ginger) is special due to its higher concentration
+						of gingerol.
+		 			   		Sourced from <br>Meghalaya.
+         			 </div>
+
+		 			 <div>
+						<div class="column is-6 is-offset-1">
+          				    <img src="img/Front.png" alt="blog image" align=left width="800" height="600"> 
+          				</div>
+		 			   	<button class="button is-primary is-dark">Buy now</button>
+						<br>
+						<br>
+						*Availabe on amazon
+         			 </div>
+					</div>
+         		</div>
+         	</div>
+		</div>
+        </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>All rights reserved</strong> by <a href="https://wmkfoods.github.io">WMK FOODS</a>. 
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+
+</body>
+</html>
